@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SingletonDemoObj.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    //测试返回的是否是单例
+    for (int i = 0; i < 10; i++) {
+        SingletonDemoObj *instance = [SingletonDemoObj sharedSingletonDemoObj];
+        NSLog(@"%@",instance);
+    }
 }
 
 - (void)didReceiveMemoryWarning {

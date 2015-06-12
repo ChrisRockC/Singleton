@@ -14,6 +14,7 @@
 		049907601B2B4DCB0010DF82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0499075F1B2B4DCB0010DF82 /* Images.xcassets */; };
 		049907631B2B4DCB0010DF82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049907611B2B4DCB0010DF82 /* LaunchScreen.xib */; };
 		0499076F1B2B4DCB0010DF82 /* SingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499076E1B2B4DCB0010DF82 /* SingletonTests.m */; };
+		0499077A1B2B4E4A0010DF82 /* SingletonDemoObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 049907791B2B4E4A0010DF82 /* SingletonDemoObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		049907681B2B4DCB0010DF82 /* SingletonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0499076D1B2B4DCB0010DF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0499076E1B2B4DCB0010DF82 /* SingletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonTests.m; sourceTree = "<group>"; };
+		049907781B2B4E4A0010DF82 /* SingletonDemoObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonDemoObj.h; sourceTree = "<group>"; };
+		049907791B2B4E4A0010DF82 /* SingletonDemoObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonDemoObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				0499075F1B2B4DCB0010DF82 /* Images.xcassets */,
 				049907611B2B4DCB0010DF82 /* LaunchScreen.xib */,
 				049907521B2B4DCB0010DF82 /* Supporting Files */,
+				049907781B2B4E4A0010DF82 /* SingletonDemoObj.h */,
+				049907791B2B4E4A0010DF82 /* SingletonDemoObj.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0499077A1B2B4E4A0010DF82 /* SingletonDemoObj.m in Sources */,
 				0499075B1B2B4DCB0010DF82 /* ViewController.m in Sources */,
 				049907581B2B4DCB0010DF82 /* AppDelegate.m in Sources */,
 				049907551B2B4DCB0010DF82 /* main.m in Sources */,
