@@ -32,6 +32,11 @@
     return [[self alloc] init];
 }
 
++(instancetype)sharedSingletonDemoObj2
+{
+     return [[self alloc] init];
+}
+
 //通过互斥锁来实现单例,但是效率没有dispatch_once高
 +(instancetype)sharedSyncDemo{
     static id syncInstance;

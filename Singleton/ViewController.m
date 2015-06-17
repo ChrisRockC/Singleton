@@ -30,4 +30,25 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    
+    int largeNumber = 1000 * 1000;
+    
+    //互斥锁
+    NSLog(@"互斥锁");
+    CFAbsoluteTime start = CFAbsoluteTimeGetCurrent();
+    for (int i = 0; i < largeNumber; i++) {
+        [SingletonDemoObj sharedSingletonDemoObj];
+    }
+    NSLog(@"%f",CFAbsoluteTimeGetCurrent() - start);
+    
+    //dispatch_once
+    NSLog(@"dispatch_once");
+    start = CFAbsoluteTimeGetCurrent();
+    for (int i = 0; i < largeNumber; i++) {
+        [SingletonDemoObj sharedSingletonDemoObj2];
+    }
+    NSLog(@"%f",CFAbsoluteTimeGetCurrent() - start);
+}
+
 @end

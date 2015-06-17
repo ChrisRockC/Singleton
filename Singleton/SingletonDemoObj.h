@@ -13,4 +13,6 @@
 //共享实例，便于其他类访问
 +(instancetype)sharedSingletonDemoObj;
 
++(instancetype)sharedSingletonDemoObj2;
+
 @end
