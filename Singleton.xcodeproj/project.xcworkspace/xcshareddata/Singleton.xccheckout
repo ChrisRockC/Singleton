@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C6D80B11-D27B-45E8-8465-00F53BDD0DB7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Singleton</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2E2EE75C292F9579981849F50E091AA821E23481</key>
+		<string>https://github.com/ChrisRockC/Singleton.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Singleton.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2E2EE75C292F9579981849F50E091AA821E23481</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ChrisRockC/Singleton.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2E2EE75C292F9579981849F50E091AA821E23481</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2E2EE75C292F9579981849F50E091AA821E23481</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Singleton</string>
+		</dict>
+	</array>
+</dict>
+</plist>
